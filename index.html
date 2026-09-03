@@ -145,6 +145,15 @@
       margin-top: 72px;
       color: var(--muted);
       font-size: 0.92rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: space-between;
+    }
+
+    footer nav {
+      display: flex;
+      gap: 16px;
     }
 
     footer a {
@@ -238,6 +247,10 @@
 
     <footer>
       <span>© <span id="year"></span> krtokia.dev</span>
+      <nav aria-label="Legal">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+      </nav>
     </footer>
   </div>
 
